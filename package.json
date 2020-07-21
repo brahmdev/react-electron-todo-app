@@ -1,0 +1,41 @@
+{
+    "name": "react-todo-app",
+    "version": "0.1.0",
+    "private": true,
+    "main": "src/start.js",
+    "build": {
+        "appId": "com.smartbear",
+        "directories": {
+            "buildResources": "assets"
+        },
+        "win": {
+            "category": "com.smartbear.type",
+            "iconUrl": "path-to-icon.png"
+        },
+        "mac": {
+            "category": "com.smartbear.type",
+            "iconUrl": "path-to-icon.png"
+        }
+    },
+    "devDependencies": {
+        "electron-builder": "^22.7.0",
+        "react-scripts": "0.9.0"
+    },
+    "dependencies": {
+        "bootstrap": "^3.4.1",
+        "electron": "^9.1.1",
+        "electron-is-dev": "^1.2.0",
+        "immutability-helper": "^2.1.1",
+        "keycode-js": "^0.0.4",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "recompose": "^0.23.5"
+    },
+    "scripts": {
+        "electron": "electron .",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    }
+}
